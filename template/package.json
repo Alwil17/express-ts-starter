@@ -1,7 +1,7 @@
 {
-   "name": "univ-attendance-system-api",
-   "version": "0.0.1",
-   "description": "University attendance system API.",
+   "name": "express-ts-starter",
+   "version": "1.0.0",
+   "description": "An express+Typescript+postgresql starter",
    "type": "commonjs",
    "scripts": {
       "watch": "tsc -w",

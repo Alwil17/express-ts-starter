@@ -1,14 +1,17 @@
 {
-  "name": "express-ts-starter",
+  "name": "@Alwil17/express-ts-starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "An express+Typescript+postgresql starter.",
+  "bin": {
+    "express-ts-starter": "./dist/cli.js"
+  },
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alwil17",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0"
